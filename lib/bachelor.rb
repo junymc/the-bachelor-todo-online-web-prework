@@ -56,4 +56,5 @@ def get_average_age_for_season(data, season)
         number_of_age += season_hash["age"].to_i
   end
   average = number_of_age / age.size
+  average.ceil
 end
