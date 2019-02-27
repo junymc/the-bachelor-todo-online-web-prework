@@ -55,7 +55,7 @@ def get_average_age_for_season(data, season)
     age << season_hash["age"]
         number_of_age += season_hash["age"].to_i
   end
-  average = number_of_age / age.size
-  average.round(0)
+  average = (number_of_age / age.size).round
+  average
   binding.pry
 end
