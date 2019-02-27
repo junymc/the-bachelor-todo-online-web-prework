@@ -57,4 +57,5 @@ def get_average_age_for_season(data, season)
   end
   average = (number_of_age / age.size).round
   average
+  binding.pry
 end
